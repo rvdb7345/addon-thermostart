@@ -16,4 +16,9 @@ server {
         proxy_pass http://backend{{ .entry }}/fw/hcu;
     }
 
+    # JSON API for Home Assistant (GET state, POST setpoint/pause)
+    location /thermostat {
+        proxy_pass http://backend{{ .entry }}/thermostat;
+    }
+
 }

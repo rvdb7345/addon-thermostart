@@ -1,6 +1,6 @@
 ---
 name: Thermostart (HA API fix)
-version: 1.0.5
+version: 1.0.6
 slug: thermostart
 description: Thermostart for Home Assistant
 url: https://github.com/rvdb7345/thermostart

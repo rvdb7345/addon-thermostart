@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.6
+- expose the /thermostat JSON API on the direct port (3888) so Home Assistant can reach it
+
 ## 1.0.5
 - build Thermostart from rvdb7345/thermostart (fixed /thermostat POST API for Home Assistant, fail-safe weather lookup)
 - unpin apt package versions so the image still builds
