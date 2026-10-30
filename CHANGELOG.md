@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.8
+- store the setpoint the thermostat reports, so changes made on the device and schedule transitions show up in the API / Home Assistant
+
 ## 1.0.7
 - API can set the firmware host/port and trigger a one-shot over-the-air firmware update
 - THERMOSTART_COMMIT in the Dockerfile so a rebuild never reuses a cached older checkout
