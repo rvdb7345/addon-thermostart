@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.7
+- API can set the firmware host/port and trigger a one-shot over-the-air firmware update
+- THERMOSTART_COMMIT in the Dockerfile so a rebuild never reuses a cached older checkout
+
 ## 1.0.6
 - expose the /thermostat JSON API on the direct port (3888) so Home Assistant can reach it
 

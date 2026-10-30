@@ -3,7 +3,8 @@ FROM ${BUILD_FROM}
 
 ENV \
   PIP_BREAK_SYSTEM_PACKAGES=1 \
-  THERMOSTART_VERSION="main"
+  THERMOSTART_VERSION="main" \
+  THERMOSTART_COMMIT="b3f20e3b614cc30af2ddd37164628ac6b67207a6"
 
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
