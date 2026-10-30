@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.5
+- build Thermostart from rvdb7345/thermostart (fixed /thermostat POST API for Home Assistant, fail-safe weather lookup)
+- unpin apt package versions so the image still builds
+
 ## 1.0.4
 - migrate to 7.6.2 base image
 

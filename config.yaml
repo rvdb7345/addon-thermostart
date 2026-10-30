@@ -1,9 +1,9 @@
 ---
-name: Thermostart
-version: 1.0.4
+name: Thermostart (HA API fix)
+version: 1.0.5
 slug: thermostart
 description: Thermostart for Home Assistant
-url: https://github.com/wichers/thermostart
+url: https://github.com/rvdb7345/thermostart
 webui: http://[HOST]:[PORT:3888]
 ingress: true
 panel_icon: mdi:owl

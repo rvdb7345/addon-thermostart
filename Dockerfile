@@ -16,15 +16,15 @@ ARG BUILD_ARCH=amd64
 RUN \
   apt-get update \
   && apt-get install -y --no-install-recommends \
-    build-essential=12.9 \
-    git=1:2.39.5-0+deb12u1 \
-    python3-dev=3.11.2-1+b1 \
-    python3-pip=23.0.1+dfsg-1 \
-    python3=3.11.2-1+b1 \
-    nginx=1.22.1-9 \
+    build-essential \
+    git \
+    python3-dev \
+    python3-pip \
+    python3 \
+    nginx \
   \
   && git clone --branch "${THERMOSTART_VERSION}" --depth=1 \
-    https://github.com/wichers/thermostart.git /opt \
+    https://github.com/rvdb7345/thermostart.git /opt \
   \
   && pip install \
     --no-cache-dir \
